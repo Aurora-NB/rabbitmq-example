@@ -11,7 +11,7 @@ public class RabbitMQConnectionUtil {
 
     static {
         CONNECTION_FACTORY = new ConnectionFactory();
-        CONNECTION_FACTORY.setHost("10.20.5.37");
+        CONNECTION_FACTORY.setHost("127.0.0.1");
         CONNECTION_FACTORY.setPort(5672);
         CONNECTION_FACTORY.setVirtualHost("/ems");
         CONNECTION_FACTORY.setUsername("ems");
